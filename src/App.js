@@ -5,6 +5,8 @@ function App() {
   return (
     <div className="App">
       <h1>Chat Application</h1>
+      <h1>Chat Application</h1>
+      
     </div>
   );
 }
