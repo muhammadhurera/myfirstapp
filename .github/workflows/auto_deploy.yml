@@ -37,4 +37,4 @@ jobs:
       run: npm install -g surge
       
     - name: deploying on surge
-      run: surge ./build reactapp2022.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build functional-walk.surge.sh --token ${{secrets.SURGE_TOKEN}}
