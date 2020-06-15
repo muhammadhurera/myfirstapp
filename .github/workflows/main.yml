@@ -28,7 +28,7 @@ jobs:
   uses: Borales/actions-yarn@v2.3.0
   with:
     # Yarn command
-    cmd: npx create-react-app # npm install
+    cmd: install # npm install
     - name: creating build
       run: yarn build
     
